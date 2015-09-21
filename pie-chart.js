@@ -1,4 +1,4 @@
-// stats
+// test fixture
 var results = [
   {name: "Satisfied", count: 1043, color: "lightblue"},
   {name: "Neutral", count: 563, color: "lightgreen"},
@@ -6,7 +6,7 @@ var results = [
   {name: "No comment", count: 175, color: "silver"}
 ];
 
-// drawing
+// drawing on canvas
 <canvas width="200" height="200"></canvas>
 <script>
   var cx = document.querySelector("canvas").getContext("2d");
